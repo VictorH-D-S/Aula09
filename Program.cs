@@ -7,7 +7,7 @@ namespace Aula09ProdutosEstoqueSegQua
         static void Main(string[] args)
         {
             List<string> produtos = new List<string> { "pepsi", "fanta" };
-            Console.WriteLine("Bem-vindo ao Conradito Store");
+            Console.WriteLine("Bem-vindo ao Conrado's Gamer Store");
             while (true)
             {
                 Console.WriteLine("Digite 1 para cadastrar ou 2 para listar");
