@@ -59,7 +59,7 @@ namespace Aula09ProdutosEstoques
                     string resto = nome.Substring(1, nome.Length - 1);
                     string nome_tratado = primeira_letra + resto;
 
-                    texto += produtos[contador] + ", ";
+                    texto += nome_tratado + ", ";
                     contador++;
 
                 }
